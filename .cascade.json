@@ -1,0 +1,28 @@
+{
+  "project": "Roy Frenkiel's Personal Website",
+  "description": "A modern personal website built with Next.js, React, TypeScript, and Tailwind CSS",
+  "guidanceFiles": [
+    "AI_GUIDANCE.md"
+  ],
+  "rules": [
+    "rules/create-prd.mdc",
+    "rules/generate-tasks.mdc",
+    "rules/process-task-list.mdc"
+  ],
+  "preferredStyle": {
+    "codeStyle": "typescript",
+    "componentStyle": "functional",
+    "cssFramework": "tailwindcss"
+  },
+  "projectStructure": {
+    "components": "app/components",
+    "pages": "app",
+    "styles": "app/globals.css",
+    "public": "public"
+  },
+  "conventions": {
+    "naming": "camelCase for variables, PascalCase for components",
+    "imports": "Group imports by type (React, components, utilities)",
+    "commits": "Use conventional commit messages"
+  }
+}
