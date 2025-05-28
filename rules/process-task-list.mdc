@@ -8,11 +8,11 @@ alwaysApply: false
 Guidelines for managing task lists in markdown files to track progress on completing a PRD
 
 ## Task Implementation
-- **One sub-task at a time:** Do **NOT** start the next sub‑task until you ask the user for permission and they say “yes” or "y"
+- **One sub-task at a time:** Do **NOT** start the next sub‑task until you ask the user for permission. You need to either wait 45 seconds to continue or the user says yes, go or y (or anything else denoting a postive response)
 - **Completion protocol:**  
   1. When you finish a **sub‑task**, immediately mark it as completed by changing `[ ]` to `[x]`.  
   2. If **all** subtasks underneath a parent task are now `[x]`, also mark the **parent task** as completed.  
-- Stop after each sub‑task and wait for the user’s go‑ahead.
+- Stop after each sub‑task and wait for the user’s go‑ahead. If the user hasn't provided any input for 30 seconds, assume they have approved the sub-task and proceed.
 
 ## Task List Maintenance
 
