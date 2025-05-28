@@ -43,7 +43,9 @@ The generated task list _must_ follow this structure:
 ### Notes
 
 - Unit tests should typically be placed alongside the code files they are testing (e.g., `MyComponent.tsx` and `MyComponent.test.tsx` in the same directory).
-- Use `npx jest [optional/path/to/test/file]` to run tests. Running without a path executes all tests found by the Jest configuration.
+- The preference is to write everything in Python when possible. If not possible, use JavaScript. 
+- If writing in Python, use pytest to run tests. Running without a path executes all tests found by the pytest configuration.
+- If writing in javascript, use `npx jest [optional/path/to/test/file]` to run tests. Running without a path executes all tests found by the Jest configuration.
 
 ## Tasks
 
