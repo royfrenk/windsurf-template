@@ -23,6 +23,7 @@ Guidelines for managing task lists in markdown files to track progress on comple
 2. **Maintain the “Relevant Files” section:**
    - List every file created or modified.
    - Give each file a one‑line description of its purpose.
+   - If possible, explain the overall architecture. 
 
 ## AI Instructions
 
